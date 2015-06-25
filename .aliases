@@ -14,7 +14,9 @@ alias c="cd ~/Code"
 alias g="git"
 alias h="history"
 alias j="jobs"
-alias s='git status -sb'
+# alias s='git status -sb'
+alias be='bundle exec'
+
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
