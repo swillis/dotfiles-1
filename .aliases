@@ -18,9 +18,10 @@ alias be='bundle exec'
 
 #Git
 alias s='git status -sb'
-# alias ga='git add '
-# alias gp='git push '
-# alias gc='git commit -m '
+alias ga='git add '
+alias gp='git push '
+alias gc='git commit -m '
+alias gl='git pull '
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
